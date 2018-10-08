@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infos>
+    <city id="1">
+        <temp>20</temp>
+        <weather>wind</weather>
+        <wind>wind</wind>
+        <name>shanghai</name>
+        <pm>200</pm>
+    </city>
+    <city id="2">
+        <temp>20</temp>
+        <weather>wind</weather>
+        <wind>wind</wind>
+        <name>beijing</name>
+        <pm>200</pm>
+    </city>
+    <city id="3">
+        <temp>20</temp>
+        <weather>wind</weather>
+        <wind>wind</wind>
+        <name>haerbin</name>
+        <pm>200</pm>
+    </city>
+</infos>

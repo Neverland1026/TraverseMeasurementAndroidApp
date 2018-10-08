@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.neverland_ly.biyesheji">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_blue"
+        android:label="@string/app_install_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LaunchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/login_login"
+            android:theme="@style/AppTheme_login" />
+        <activity
+            android:name=".ZhengfansuanActivity"
+            android:label="@string/zhengfansaun_label"
+            android:theme="@style/AppTheme_zfs" />
+        <activity android:name=".VibrateActivity" />
+        <activity android:name=".ThrillActivity" />
+        <activity
+            android:name=".TraverseActivity"
+            android:label="@string/traverse_label"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme_tra" />
+        <!-- android:screenOrientation="landscape" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- 另外，这里还要提醒大家的是有时候你的应用可能会产生多个实例，你还可以在主Activity中加入android:launchMode="singleInstance" 来强制让系统仅运行在单例模式。 -->
+        <activity android:name=".SlideActivity" />
+        <activity
+            android:name=".SelectActivity"
+            android:label="请选择"
+            android:theme="@style/AppTheme_select" />
+        <activity android:name=".DownloadActivity" />
+        <activity android:name=".GoogleActivity" />
+        <activity
+            android:name=".ConnectActivity"
+            android:label="联系我们"
+            android:theme="@style/AppTheme_connect" />
+        <activity
+            android:name=".AuthorActivity"
+            android:label="作者简介"
+            android:theme="@style/AppTheme_author" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".VirtualActivity" />
+        <activity
+            android:name=".TypeActivity"
+            android:label="请选择导线类型"
+            android:theme="@style/AppTheme_type">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".KeyInputActivity" />
+        <activity android:name=".STouchActivity" />
+        <activity android:name=".TraverseSingleActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".TraverseDoubleActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".TraverseNothingActivity" />
+    </application>
+
+</manifest> <!-- <intent-filter> --><!-- <action android:name="android.intent.action.MAIN" /> --><!-- <category android:name="android.intent.category.LAUNCHER" /> --><!-- </intent-filter> -->

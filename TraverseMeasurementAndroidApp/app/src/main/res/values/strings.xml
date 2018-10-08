@@ -1,0 +1,96 @@
+<resources>
+
+    <string name="app_install_name">测绘小当家</string>
+
+    <string name="login_hint_username">请输入用户名</string>
+    <string name="login_hint_password">请输入密码</string>
+    <string name="login_login">登    录</string>
+    <string name="login_copyright">Copyright © Neverland_LY</string>
+
+    <string name="select_label">请选择</string>
+    <string name="select_test1_zhengfansuan">坐标正反算</string>
+    <string name="select_test2_traverse">导线测量\n（左角）</string>
+    <string name="select_test3_author">开发者简介</string>
+    <string name="select_test4_download">下载专区</string>
+    <string name="select_test5_connect">联系我们</string>
+
+    <string name="zhengfansaun_label">坐标正反算</string>
+    <string name="zhengfansaun_zheng">坐标正算</string>
+    <string name="zhengfansaun_fan">坐标反算</string>
+    <string name="zhengfansaun_start">起点坐标(m)：</string>
+    <string name="zhengfansaun_end">终点坐标(m)：</string>
+    <string name="zhengfansaun_occupy">占位字符(m)：</string>
+    <string name="zhengfansaun_distance"> S</string>
+    <string name="zhengfansaun_azimuth"> 坐标方位角：</string>
+    <string name="zhengfansaun_result_1"> 坐标正算计算结果</string>
+    <string name="zhengfansaun_result_2"> 坐标反算计算结果</string>
+    <string name="zhengfansaun_dash_long">------------</string>
+
+    <string name="traverse_label">导线测量</string>
+    <string name="traverse_control_point1">控制点1:：</string>
+    <string name="traverse_control_point2">控制点2：</string>
+    <string name="traverse_azimuth_this">初始方位角：</string>
+    <string name="traverse_coordinate_this">本站坐标：</string>
+    <string name="traverse_distance">本站到下一站距离S：</string>
+    <string name="traverse_azimuth_before">上一方位角α：</string>
+    <string name="traverse_corner">本站转角  β：</string>
+    <string name="traverse_azimuth_after">下一方位角α：</string>
+    <string name="traverse_incremental">坐标增量：</string>
+    <string name="traverse_incremental_x">△X</string>
+    <string name="traverse_incremental_y">△Y</string>
+    <string name="traverse_coordinate_next">下一站坐标：</string>
+    <string name="traverse_note">本站备注：</string>
+    <string name="traverse_note_hint">可不备注</string>
+    <string name="information"><b>~~~操作提示~~~</b>\n第一步：输入已知两个控制点的坐标值，方可进入下面的计算\n第二步：开始输入测量值，点击旋转的地球开始进行计算\n第三步：选择修改或者进入下一站</string>
+
+    <string name="author_label">开发者简介</string>
+    <string name="author_intro_1"><b>开发者简介</b>\n\n姓名：刘宇\n性别：男\n民族：汉\n出生年月：1993年10月\n学历：硕士研究生\n所在单位：长安大学\n主修：大地测量与测量工程\n辅修：地理信息系统\n备注：暂无\n\n<b>About the Author</b>\n\nName：LIU YU\nGender：Male\nNationality：Chinese\nDate of birth：October 1993\nEducation：PostGraduate\nThe unit：Changan University\nMajor：Geodesy and Surveying Engineering\nMinor：Geographic Information Systems\nNote：No\n</string>
+    <string name="author_intro_2"><b>联系方式</b>\n\nEmail1：neverland_ly@163.com\nEmail2：neverland.liuyu@gmail.com\nQQ：1019436173\n微信：Neverland_LY\n其他：暂无\n\n<b>Contact Information</b>\n\nEmail1：neverland_ly@163.com\nEmail2：neverland.liuyu@gmail.com\nQQ：1019436173\nWechat：Neverland_LY\nNote: No\n</string>
+
+    <string name="download_label">下载专区</string>
+    <string name="download_button1">测绘小当家（Beta）</string>
+    <string name="download_button2">导线测量\n+\n水准测量计算手簿</string>
+    <string name="download_button3">测绘之家\n(Only supports Windows)</string>
+    <string name="download_note">NOTE: The following are the beta version, if you find any error or have a suggestion, please contact the developer .</string>
+
+    <string name="connect_label">联系</string>
+    <string name="connect_name">扫一扫</string>
+
+    <string name="result_label">测量结果</string>
+    <string name="result_help"><b>注意事项:</b>\n1.<b>务必将本次数据从手机导出，防止下一次测量时数据被覆盖。</b>\n2.这里的∑S、∑△X、∑△Y是相对于 控制点1 计算的。\n3.暂不提供测量精度的计算结果。</string>
+
+    <string name="x_x1">X1</string>
+    <string name="y_y1">Y1</string>
+    <string name="x_x2">X2</string>
+    <string name="y_y2">Y2</string>
+
+    <string name="du">°</string>
+    <string name="fen">′</string>
+    <string name="miao">″</string>
+
+    <string name="save_picture">保存图片</string>
+    <string name="save_picture_failed">保存失败</string>
+    <string name="save_picture_success">图片成功保存至%s目录</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="str_ok">vibrate_ok</string>
+    <string name="str_end">vibrate_end</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="define"><b>导线测量是建立国家基本平面控制方法之一。同时导线测量也广泛应用于工程测量、城市测量、地形测图的平面控制等方面。</b>
+        \n\n1.仅有一个连接角的附合导线：A、B两点为已知点，在A或者B点处有且仅有一个转折角已知的附合导线
+        \n\n2.具有两个连接角的附合导线：A、B两点为已知点，A和B点处的转折角都已知的附合导线
+        \n\n3.单一闭合导线：起讫于同一已知点的导线，称为闭合导线
+        \n\n4.无连接角附合导线（无定向导线）：没有观测导线两端的连接角，致使推算各导线边的方位角发生困难的一种导线
+        \n\n5.单节点导线网近似平差：分为角度平差，坐标平差，经度评定
+        \n\n6.支导线：由一已知点C和一已知边的方向CD出发，延伸出去的导线C、9、10称为支导线。支导线只有必要的起算数据，没有检核条件，它只限于在图根导线中使用，且支导线的点数一般不应超过3个</string>
+
+    <string name="nothing">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;无定向导线是没有方向检核的导线，即为从一条已知边出发而闭合到一个已知点上，但有时在导线的一端只有一个已知点，没有定向点，另一端也可能是一个点。这种导线就不能用常规的计算方法来推算坐标，因为起算时没有定向点，所以称为无定向导线。
+        \n\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;由于没有方向检核精度比附合导线要低。闭合到一个已知点上只有一个坐标检核条件，但比支导线精度要高。
+        \n\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;在巷道延伸测量中 ,经常会遇到测量控制点被破坏 ,剩下的点又彼此不通视的情况 ,为了节省作业时间 ,不影响生产 ,应用井下无定向导线测量 ,可以恢复该段导线 ;该法是把两已知控制点看着是定向时两垂球线连接点 ,在两控制点间按所设计的精度进行相应等级的导线联测 ,并用两井几何定向的井下连接导线解算方法进行计算 ,使原来按一般导线测量方法不能解决的点位坐标问题得以解决。
+        \n\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;由于无连接角导线没有观测导线两端的连接角，致使推算各导线边的方位角发生困难。解决这一问题的途径是：首现假定导线第一边的坐标方位角作为起始方向，以此推算出各导线边的假定坐标方位角，然后按支导线的计算方法推求各导线点的假定坐标。由于起始边的定向不正确以及转折角和导线编观测误差的影响，导致终点的假定坐标与已知坐标不相等。为消除这一矛盾，可用导线固定边的已知长度和已知方位角分别作为导线的尺度标准和定向标准对导线进行缩放和旋转，使终点的假定坐标与已知坐标相等，进而计算出各导线点的坐标平差值。\n\n</string>
+</resources>
